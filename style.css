@@ -11,7 +11,7 @@ h1 {
     position: absolute;
     top: 10px;
     color: aliceblue;
-    margin: 150px 520px;
+    margin: 150px 530px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: 1cqh;
     word-spacing: 0cap;
@@ -50,7 +50,7 @@ footer {
     top: 10px;
     font-family: 'Courier New', monospace;
     color: white;
-    margin: 600px 100px;
+    margin: 600px 150px;
     opacity: 0; /* Initially hidden */
     animation: fade-in 6s ease forwards;
 }
