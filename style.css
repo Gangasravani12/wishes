@@ -1,6 +1,5 @@
 * {
     overflow-y: hidden;
-    overflow-x: hidden;
 }
 
 main {
@@ -12,7 +11,7 @@ h1 {
     position: absolute;
     top: 10px;
     color: aliceblue;
-    margin: 150px 530px;
+    margin: 150px auto;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: 1cqh;
     word-spacing: 0cap;
@@ -40,7 +39,7 @@ p {
     font-size: 20px;
     font-weight: bold;
     line-height: 1.5;
-    margin: 250px 500px;
+    margin: 250px auto;
     text-shadow: 2px 2px 4px #000000;
     opacity: 0; /* Initially hidden */
     animation: fade-in 6s ease forwards;
@@ -55,7 +54,7 @@ footer {
     opacity: 0; /* Initially hidden */
     animation: fade-in 6s ease forwards;
 }
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
     h1 {
         font-size: 2em;
     }
@@ -66,4 +65,4 @@ footer {
     footer{
         margin: 650px 50px;
     }
-}
+} */
